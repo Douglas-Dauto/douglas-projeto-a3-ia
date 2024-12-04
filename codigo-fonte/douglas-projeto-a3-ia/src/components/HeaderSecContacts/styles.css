@@ -1,0 +1,21 @@
+.header__profile {
+    width: 40px;
+    height: 40px;
+    background-image: url(../../../public/assets/img/processador-2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.header__icons {
+    display: flex;
+    gap: 28px;
+}
+
+.header__icons svg {
+    cursor: pointer;
+}
+
+.header__icons svg path {
+    fill: var(--colorDarkGray);
+}

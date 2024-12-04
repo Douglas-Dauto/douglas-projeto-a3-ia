@@ -1,0 +1,37 @@
+.sec-menu {
+    width: 408px;
+    box-shadow: var(--shadow-right);
+    padding: 0 0 8px 0;
+    background-color: var(--colorWhite);
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 60px);
+    overflow-y: scroll;
+    position: fixed;
+    left: 0;
+    top: 60px;
+}
+
+.sec-menu::-webkit-scrollbar {
+    width: 6px;
+}
+
+.sec-menu::-webkit-scrollbar-thumb {
+    background-color: var(--colorGrayThree);
+}
+
+.sec-menu > section:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    padding-top: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: var(--colorWhite);
+    border-bottom: 2px solid var(--colorGray);
+}

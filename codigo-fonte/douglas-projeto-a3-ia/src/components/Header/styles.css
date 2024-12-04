@@ -1,0 +1,19 @@
+header section:nth-child(1) {
+    box-shadow: var(--shadow);
+    width: 408px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+header section:nth-child(2) {
+    width: calc(100% - 408px);
+    display: flex;
+    align-items: center;
+    padding: 10px 25px 10px 15px;
+}
+
+.header-sec-chat-shadow {
+    box-shadow: var(--shadow-bottom);
+}

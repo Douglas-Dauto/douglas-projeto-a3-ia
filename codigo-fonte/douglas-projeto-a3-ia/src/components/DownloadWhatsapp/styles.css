@@ -1,0 +1,54 @@
+.container-download-whatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: var(--colorGray);
+}
+
+.container-download-whatsapp__content-download-whatsapp {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-download-whatsapp .container-download-whatsapp__desktop-image {
+    width: 68%;
+    transform: translateY(-15px);
+}
+
+.container-download-whatsapp h1 {
+    font-weight: normal;
+    font-size: 2em;
+}
+
+.container-download-whatsapp p {
+    font-size: .9em;
+    text-align: center;
+}
+
+.container-download-whatsapp h1, .container-download-whatsapp p {
+    color: var(--colorDarkGray);
+}
+
+.container-download-whatsapp a {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: var(--colorGreenTwo);
+    border: 0;
+    font-weight: bold;
+    color: var(--colorWhite);
+    cursor: pointer;
+    transition: transform 50ms ease-in-out;
+    text-decoration: none;
+}
+
+.container-download-whatsapp a:hover {
+    transform: scale(1.03);
+}

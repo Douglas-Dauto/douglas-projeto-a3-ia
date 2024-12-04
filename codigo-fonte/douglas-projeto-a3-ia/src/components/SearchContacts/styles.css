@@ -1,0 +1,23 @@
+.sec-menu svg path {
+    fill: var(--colorDarkGray);
+}
+
+.sec-menu > section:nth-child(1) div {
+    width: 100%;
+    border-radius: 8px;
+    background-color: var(--colorGray);
+    display: flex;
+    align-items: center;
+    padding: 3px 12px;
+    gap: 30px;
+}
+
+.sec-menu > section:nth-child(1) div input {
+    width: 100%;
+    border: none;
+    background-color: var(--colorGray);
+}
+
+.sec-menu > section:nth-child(1) div input::placeholder {
+    font-size: 1.01em;
+}

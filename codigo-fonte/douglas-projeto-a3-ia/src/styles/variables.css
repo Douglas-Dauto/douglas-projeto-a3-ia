@@ -1,0 +1,18 @@
+:root {
+    --colorGray: #f0f2f5;
+    --colorGrayTwo: #667781;
+    --colorGrayThree: #ced0d1;
+    --colorDarkGray: #54656f;
+    --colorGreen: #d9fdd3;
+    --colorGreenTwo: #017561;
+    --colorBlue: #517ebb;
+    --colorLightBlue: #53bdeb;
+    --colorLightBlueTwo: #74cde5;
+    --colorBlack: #111b21;
+    --colorWhite: #ffffff;
+
+    --shadow: 0px -1px 3px 0px rgba(0, 0, 0, 0.164);
+    --shadowTwo: 0px 0px 2px 0px rgba(0, 0, 0, 0.164);
+    --shadow-right: 0px 3px 3px 0px rgba(0, 0, 0, 0.164);
+    --shadow-bottom: 8px -1px 3px 0px rgba(0, 0, 0, 0.164);
+}

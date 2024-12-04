@@ -1,0 +1,63 @@
+.container-chat__content {
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.container-chat > div:nth-child(1) .container-chat__container-receive, .container-chat > div:nth-child(1) > .container-chat__container-receive div, .container-chat > div:nth-child(1) .container-chat__container-send, .container-chat > div:nth-child(1) > .container-chat__container-send div {
+    display: flex;
+}
+
+.container-chat > div:nth-child(1) .container-chat__container-receive, .container-chat > div:nth-child(1) .container-chat__container-send {
+    width: 100%;
+}
+
+.container-chat > div:nth-child(1) .container-chat__container-receive > div, .container-chat > div:nth-child(1) .container-chat__container-send > div {
+    border-radius: 8px;
+    position: relative;
+    font-size: .9em;
+    box-shadow: var(--shadowTwo);
+}
+
+.container-chat .container-chat__container-receive {
+    justify-content: flex-start;
+}
+
+.container-chat .container-chat__container-send {
+    justify-content: flex-end;
+}
+
+.container-chat .container-chat__receive {
+    padding: 10px 45px 10px 10px;
+}
+
+.container-chat .container-chat__send {
+    padding: 10px 65px 10px 10px;
+}
+
+.container-chat .container-chat__send svg path{
+    fill: var(--colorGrayTwo);
+}
+
+.container-chat > div:nth-child(1) .container-chat__container-receive > div > div, .container-chat > div:nth-child(1) .container-chat__container-send > div > div {
+    display: flex;
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    align-items: center;
+    gap: 3px;
+}
+
+.container-chat > div:nth-child(1) .container-chat__container-receive > div > div p, .container-chat > div:nth-child(1) .container-chat__container-send > div > div p {
+    font-size: .75em;
+    margin-top: 2px;
+}
+
+.container-chat .container-chat__receive {
+    background-color: var(--colorWhite);
+}
+
+.container-chat .container-chat__send {
+    background-color: var(--colorGreen);
+}

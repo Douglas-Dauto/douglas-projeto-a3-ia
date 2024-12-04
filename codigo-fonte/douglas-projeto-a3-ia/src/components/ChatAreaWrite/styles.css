@@ -1,0 +1,35 @@
+.container-chat > div:nth-child(2) {
+    background-color: var(--colorGray);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.container-chat > div:nth-child(2) svg {
+    padding: 8px;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.container-chat > div:nth-child(2) svg path {
+    fill: var(--colorDarkGray);
+}
+
+.container-chat > div:nth-child(2) input {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 12px;
+    height: 42px;
+    font-size: 1.1em;
+    color: var(--colorBlack);
+    font-weight: lighter;
+}
+
+#button-audio-send-chat-area-write {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

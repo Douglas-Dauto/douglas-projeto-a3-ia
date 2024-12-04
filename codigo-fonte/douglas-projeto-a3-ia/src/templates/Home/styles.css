@@ -1,0 +1,28 @@
+@import url(../../styles/variables.css);
+@import url(../../styles/global-styles.css);
+
+header {
+    background-color: var(--colorGray);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+}
+
+main {
+    margin-top: 60px;
+}
+
+main > section:nth-child(2) {
+    background-color: var(--colorGray);
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    top: 60px;
+    width: calc(100vw - 408px);
+    height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
